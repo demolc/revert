@@ -40,4 +40,4 @@ jobs:
         with:
           server: ftp.cluster014.hosting.ovh.net
           username: ludivinej
-          password: ${{ secrets.FTP_PASSWORD }}
+          password: FormationDWWM24
