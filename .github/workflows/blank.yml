@@ -41,3 +41,4 @@ jobs:
           server: ftp.cluster014.hosting.ovh.net
           username: ludivinej
           password: ${{ secrets.FTPPASS }}
+          server-dir: www/dwwm
