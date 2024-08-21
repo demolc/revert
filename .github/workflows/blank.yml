@@ -42,3 +42,9 @@ jobs:
           username: ludivinej
           password: ${{ secrets.FTPPASS }}
           server-dir: www/dwwm/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            README.md
+            historique.txt
