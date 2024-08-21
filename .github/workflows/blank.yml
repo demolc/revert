@@ -35,9 +35,9 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-        - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-      with:
-        server: ftp.cluster014.hosting.ovh.net
-        username: ludivinej
-        password: ${{ secrets.ftp_password }}
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ftp.cluster014.hosting.ovh.net
+          username: ludivinej
+          password: ${{ secrets.ftp_password }}
